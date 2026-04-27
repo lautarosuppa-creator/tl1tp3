@@ -17,6 +17,12 @@ void CargarNombres(char * nombres[5]) {
         }
     }
 }
+void MostrarNombres(char * nombres[5]) {
+    for (int i = 0; i < 5; i++)
+    {
+        printf("%s\n", nombres[i]);
+    }
+}
 
 int main()
 {
